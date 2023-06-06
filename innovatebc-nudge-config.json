@@ -1,0 +1,114 @@
+{
+  "optionalFeatures": {
+    "asyncronousSoftwareUpdate": false,
+    "attemptToFetchMajorUpgrade": false,
+    "disableSoftwareUpdateWorkflow": true,
+    "enforceMinorUpdates": true
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURL": "https://support.apple.com/en-ca/HT213721",
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-ca/HT213721"
+        },
+        {
+          "_language": "es",
+          "aboutUpdateURL": "https://support.apple.com/en-ca/HT213721"
+        },
+        {
+          "_language": "fr",
+          "aboutUpdateURL": "https://support.apple.com/en-ca/HT213721"
+        },
+        {
+          "_language": "de",
+          "aboutUpdateURL": "https://support.apple.com/en-ca/HT213721"
+        }
+      ],
+      "majorUpgradeAppPath": "/System/Library/PreferencePanes/Softwareupdate.prefpane",
+      "requiredInstallationDate": "2023-06-30T00:00:00Z",
+      "requiredMinimumOSVersion": "13.3.3.9",
+      "targetedOSVersions": []
+    }
+  ],
+  "userExperience": {
+    "allowedDeferrals": 10,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 8,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 48,
+    "elapsedRefreshCycle": 14400,
+    "imminentRefreshCycle": 1200,
+    "imminentWindowTime": 24,
+    "initialRefreshCycle": 18000,
+    "maxRandomDelayInSeconds": 1200,
+    "noTimers": false,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": false
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "forceScreenShotIcon": false,
+    "iconDarkPath": "/Users/Shared/Nudge/FullTech-Logo-square.png",
+    "iconLightPath": "/Users/Shared/Nudge/FullTech-Logo-square.png",
+    "screenShotDarkPath": "/Users/Shared/Nudge/UpdateNow1.png",
+    "screenShotLightPath": "/Users/Shared/Nudge/UpdateNow1.png",
+    "simpleMode": false,
+    "singleQuitButton": false,
+    "updateElements": [
+     {
+        "_language": "en",
+        "actionButtonText": "Update Now",
+        "informationButtonText": "",
+        "mainContentHeader": "Your computer will restart during this update",
+        "mainContentNote": "What you need to know:",
+        "mainContentSubHeader": "Updates can take between 30-60 minutes to complete",
+        "mainContentText": "A fully up-to-date device is required to ensure that IT can accurately protect your device. If you do not update your device, you may lose access to some items necessary for your day-to-day tasks.\n\nTo begin the update, simply click on the Update Now button, then click Update Now in the subsequent window. Enter your computer password then click OK. Your computer will restart then return to the login screen when the update has completed.",
+        "mainHeader": "Your device requires a security update",
+        "primaryQuitButtonText": "Remind me later",
+        "secondaryQuitButtonText": "I will do this later",
+        "subHeader": "A friendly reminder from FullTech Systems Inc."
+      },
+      {
+        "_language": "es",
+        "actionButtonText": "Actualizar dispositivo",
+        "informationButtonText": "Más información",
+        "mainContentHeader": "Su dispositivo se reiniciará durante esta actualización",
+        "mainContentNote": "Notas importantes",
+        "mainContentSubHeader": "Las actualizaciones pueden tardar unos 30 minutos en completarse",
+        "mainContentText": "Se requiere un dispositivo completamente actualizado para garantizar que IT pueda proteger su dispositivo con precisión.\n\nSi no actualiza su dispositivo, es posible que pierda el acceso a algunos elementos necesarios para sus tareas diarias.\n\nPara comenzar la actualización, simplemente haga clic en el botón Actualizar dispositivo y siga los pasos proporcionados.",
+        "mainHeader": "Tu dispositivo requiere una actualización de seguridad",
+        "primaryQuitButtonText": "Más tarde",
+        "secondaryQuitButtonText": "Entiendo",
+        "subHeader": "Un recordatorio amistoso de su equipo de IT local"
+      },
+      {
+        "_language": "fr",
+        "actionButtonText": "Mettre à jour l'appareil",
+        "informationButtonText": "Plus d'informations",
+        "mainContentHeader": "Votre appareil redémarrera pendant cette mise à jour",
+        "mainContentNote": "Notes Importantes",
+        "mainContentSubHeader": "Les mises à jour peuvent prendre environ 30 minutes.",
+        "mainContentText": "Un appareil entièrement à jour est nécessaire pour garantir que le service informatique puisse protéger votre appareil efficacement.\n\n Si vous ne mettez pas à jour votre appareil, vous risquez de perdre l'accès à certains outils nécessaires à vos tâches quotidiennes.\n\nPour commencer la mise à jour, cliquez simplement sur le bouton Mettre à jour le périphérique et suivez les étapes fournies.",
+        "mainHeader": "Votre appareil nécessite une mise à jour de sécurité.",
+        "primaryQuitButtonText": "Plus tard",
+        "secondaryQuitButtonText": "Je comprends",
+        "subHeader": "Un rappel amical de votre équipe informatique locale"
+      },
+      {
+        "_language": "de",
+        "actionButtonText": "Gerät aktualisieren",
+        "informationButtonText": "Mehr Informationen",
+        "mainContentHeader": "Ihr Gerät wird während dieses Updates neu gestartet",
+        "mainContentNote": "Wichtige Hinweise",
+        "mainContentSubHeader": "Aktualisierungen können ca. 30 Minuten dauern.",
+        "mainContentText": "Ein vollständig aktualisiertes Gerät ist erforderlich, um sicherzustellen, dass die IT-Abteilung Ihr Gerät effektiv schützen kann.\n\nWenn Sie Ihr Gerät nicht aktualisieren, verlieren Sie möglicherweise den Zugriff auf einige Werkzeuge, die Sie für Ihre täglichen Aufgaben benötigen.\n\nUm das Update zu starten, klicken Sie auf die Schaltfläche Gerät aktualisieren und befolgen Sie die angegebenen Schritte.",
+        "mainHeader": "Ihr Gerät benötigt ein Sicherheitsupdate",
+        "primaryQuitButtonText": "Später",
+        "secondaryQuitButtonText": "Ich verstehe",
+        "subHeader": "Eine freundliche Erinnerung von Ihrem IT-Team"
+      }
+    ]
+  }
+}
